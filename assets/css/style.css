@@ -1,0 +1,252 @@
+h1, h2, h3, h4, h5, h6, a, .exciting-formate li p strong {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #f1f1f8;
+}
+p {
+  color: #f1f1f8;
+  font-family: 'Open Sans', sans-serif;
+}
+.hero-banner {
+  background: url('../img/banner-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #2c1a7e;
+  padding-top: 13rem;
+  padding-bottom: 10rem;
+}
+.navbar-brand img {
+  width: 100px;
+}
+.header .navbar-nav li a {
+  color: #fff !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.hero-banner h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #f1f1f8;
+  margin-bottom: 15px;
+}
+.hero-banner p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.hero-banner span {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+a {
+  text-decoration: none !important;
+}
+.download-btn {
+  color: #fff;
+  border: 1px solid #e8971b;
+  background-color: #e8971b;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 25px;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: all .4s linear;
+}
+.block-space {
+  padding: 6.75rem 15px;
+}
+.how-to-play-block {
+  background: url('../img/how-to-play.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-title {
+  color: #f1f1f8;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.how-to-play-block ul li {
+  color: #f1f1f8;
+  margin-bottom: 10px;
+}
+.amazing-features {
+  background: #2f2c3d;
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 400;
+}
+.blocksub-title .block-title {
+  margin-bottom: 15px;
+}
+.exciting-formate {
+  padding: 0;
+  list-style: none;
+}
+.exciting-formate li {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+.exciting-formate li.text-end {
+  justify-content: end;
+}
+.exciting-formate li.text-start {
+  justify-content: start;
+}
+.exciting-formate li i {
+  border-radius: 50%;
+  background-color: #b4a7ff;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2.25rem;
+  margin-left: 20px;
+}
+.exciting-formate li.text-start i {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.exciting-formate li p {
+  display: block;
+  width: 73%;
+  margin: 0;
+  font-size: 14px;
+}
+.exciting-formate li p strong {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.install-block {
+  background: #1d1a27;
+}
+.testimonials-slide {
+  text-align: center;
+}
+.testimonials-slide .name, .testimonials-slide .job {
+  color: #f1f1f8;
+  font-size: 18px;
+}
+.testimonials-slide .job {
+  font-size: 14px;
+  margin: 0 !important;
+}
+.testimonials-slide {
+  background: #2f2c3d;
+  padding: 40px 25px !important;
+  width: 60% !important;
+  border-radius: 8px;
+  position: relative;
+}
+.testimonials-slide .owl-dots {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+}
+.testimonials-slide .owl-dots button {
+  width: 40px;
+  height: 40px;
+  background: #b4a7ff !important;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: -75px;
+}
+.testimonials-slide .owl-dots button span {
+  display: none;
+}
+.testimonials-slide .owl-dots button::before {
+  content: "\f053";
+  color: #1d1a27;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.testimonials-slide .owl-dots button:last-child {
+  float: right;
+  left: auto;
+  right: -75px;
+  transform: rotate(180deg);
+}
+.footer {
+  background: #2f2c3d;
+  padding-top: 70px;
+  color: #f1f1f8;
+  padding-bottom: 15px;
+}
+.footer-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer-nav {
+  padding: 0;
+  list-style: none;
+}
+.footer-nav li {
+  display: block;
+  margin-bottom: 8px;
+}
+.footer-nav li a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  transition: all .4s linear;
+  color: #f1f1f8;
+}
+.footer-contact li a {
+  font-weight: 300;
+  font-size: 13px;
+}
+.copyright-block {
+  border-top: 1px solid #3a3a3a;
+  padding-top: 15px;
+  margin-top: 25px !important;
+}
+.copyright-block p, .copyright-block p a {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header.fixed-header {
+  box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #4633af;
+  z-index: 999;
+}
+.header.fixed-header .navbar-brand img {
+  width: 60px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .hero-banner p {
+  width: 80%;
+}
+.download-img {
+  padding-left: 45px !important;
+}
+
+}
