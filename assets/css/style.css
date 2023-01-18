@@ -233,6 +233,39 @@ a {
 .header.fixed-header .navbar-brand img {
   width: 60px;
 }
+.secured-games {
+  background: #4633af;
+}
+.responsible-game h2 {
+  font-size: 20px;
+  color: #f1f1f8;
+  margin-bottom: .1rem;
+  font-weight: 500;
+}
+.responsible-game p::before {
+  content: "";
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url('../img/mark.png');
+  position: absolute;
+  left: 0;
+  filter: grayscale(0%) invert(100%);
+}
+.responsible-game p {
+  font-size: 14px;
+  color: #f1f1f8;
+  letter-spacing: 0;
+  margin-bottom: 2px;
+  padding-left: 30px;
+}
+.responsible-game p ~ br {
+  display: none;
+}
+.gaming {
+  margin-bottom: 80px;
+}
+
 
 
 
