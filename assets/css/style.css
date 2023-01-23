@@ -324,6 +324,13 @@ top: 0;
   font-weight: 700;
   color: #fff;
 }
+.button-class {
+  background: #4633af;
+  border: 1px solid #4633af !important;
+  outline: none;
+  text-transform: uppercase;
+  padding: 10px 25px;
+}
 
 
 
