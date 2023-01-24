@@ -105,16 +105,17 @@ a {
 }
 .exciting-formate li i {
   border-radius: 50%;
-  background-color: #b4a7ff;
+  background-color: #4633af;
   text-align: center;
-  width: 72px;
-  height: 72px;
+  width: 55px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-size: 2.25rem;
   margin-left: 20px;
+  border: 2px solid #b4a7ff;
 }
 .exciting-formate li.text-start i {
   margin-left: 0;
