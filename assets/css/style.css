@@ -107,8 +107,8 @@ a {
   border-radius: 50%;
   background-color: #4633af;
   text-align: center;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,6 +340,9 @@ top: 0;
 }
 .content_wrapperh .list {
   padding-left: 15px;
+}
+.exciting-formate li i img {
+  width: 50px;
 }
 
 
