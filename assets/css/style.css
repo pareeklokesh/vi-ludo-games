@@ -344,6 +344,25 @@ top: 0;
 .exciting-formate li i img {
   width: 50px;
 }
+.info-block strong {
+  position: relative;
+  display: block;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 12px;
+  padding-bottom: 0px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+}
+.info-block a, .info-block p {
+  color: #b5b5b5;
+  transition: all .4s linear;
+}
+.info-block {
+  padding-top: 25px;
+}
 
 
 
@@ -354,6 +373,9 @@ top: 0;
 
 
 @media (min-width: 992px) {
+  .info-block {
+  padding-left: 40px;
+}
   .hero-banner p {
   width: 80%;
 }
