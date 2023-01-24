@@ -331,6 +331,15 @@ top: 0;
   text-transform: uppercase;
   padding: 10px 25px;
 }
+.content_wrapperh .list li {
+  color: #000;
+  list-style-type: circle;
+  text-transform: lowercase;
+  color: #fff;
+}
+.content_wrapperh .list {
+  padding-left: 15px;
+}
 
 
 
