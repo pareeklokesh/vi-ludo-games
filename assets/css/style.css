@@ -363,6 +363,29 @@ top: 0;
 .info-block {
   padding-top: 25px;
 }
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #4633af;
+  color: #fff !important;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  line-height: normal;
+}
+.footer-sub-title {
+  color: #f1f1f8;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
 
 
 
